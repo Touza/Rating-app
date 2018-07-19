@@ -2,7 +2,11 @@
 
 
 @section('content')
-	<h2>Home</h2>
+	@include('inc.navigation')
 
 
+	
+
+	
+    @include('inc.footer')
 @endsection
