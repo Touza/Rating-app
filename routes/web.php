@@ -12,5 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Login');
 });
+
+Route::get('/Home', function () {
+    return view('Home');
+});
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/LogAdmin', function () {
+    return view('LogAdmin');
+});
+
+
+
+
