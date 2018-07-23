@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace RATINGapp\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -10,23 +10,26 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/', function () {
-    return view('Login');
-});
 
-Route::get('/Home', function () {
-    return view('Home');
-});
 
-Route::get('/admin', function () {
-    return view('admin');
-});
+// Auth::routes();
 
-Route::get('/LogAdmin', function () {
-    return view('LogAdmin');
-});
+// Route::get('/Home', 'HomeController@index')->name('home');
 
+Route::get('/',[
+		'as' => 'mylogin',
+		'uses' => 'MyloginController@index',
+]);
+
+// Route::get('/Home',[
+// 		'as' => 'myhome',
+// 		'uses' => 'MyhomeController@home',
+// ]);
+Route::get('/Home', 'MyhomeController@home')->name('home');
 
 
 

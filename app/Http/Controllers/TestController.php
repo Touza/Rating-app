@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace RATINGapp\Http\Controllers;
 
 use Illuminate\Http\Request;
 
