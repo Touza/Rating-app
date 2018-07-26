@@ -32,4 +32,10 @@ Route::get('/',[
 Route::get('/Home', 'MyhomeController@home')->name('home');
 
 
+Route::get('/rate/car','CarController@showCars');
+
+
+Route::get('/rate/phone', 'PhoneController@showPhones');
+
+
 
