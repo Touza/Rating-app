@@ -8,6 +8,6 @@ class MyloginController extends Controller
 {
     //
     public function index(){
-    	return view('myhome.myLogin');
+    	return view('Login_users.myLogin');
     }
 }

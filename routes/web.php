@@ -18,18 +18,28 @@
 
 // Auth::routes();
 
-// Route::get('/Home', 'HomeController@index')->name('home');
+Route::get('/logout','Auth\LoginController@logout')->name('logout');
+Route::post('/logout','Auth\LoginController@logout');
 
-Route::get('/',[
-		'as' => 'mylogin',
-		'uses' => 'MyloginController@index',
-]);
+Route::get('/Admin','Auth\LoginController@login')->name('admin');
+Route::post('/Admin','Auth\LoginController@verify');
+
+
+Route::get('/Home', 'HomeController@index')->name('home');
+
+
+
+// Route::get('/',[
+// 		'as' => 'mylogin',
+// 		'uses' => 'MyloginController@index',
+// ]);
 
 // Route::get('/Home',[
 // 		'as' => 'myhome',
 // 		'uses' => 'MyhomeController@home',
 // ]);
-Route::get('/Home', 'MyhomeController@home')->name('home');
+// Route::get('/Home', 'MyhomeController@home')->name('home');
 
+// Route::get('/LogAdmin','AdminController@login')->name('login_admin');
 
-
+// Route::post('/LogAdmin','AdminController@verify');
