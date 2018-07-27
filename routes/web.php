@@ -32,10 +32,13 @@ Route::get('/',[
 Route::get('/Home', 'MyhomeController@home')->name('home');
 
 
-Route::get('/rate/car','CarController@showCars');
+Route::get('/ratecar','DynamicDependentCar@showCars');
+Route::post('ratecar/fetch', 'DynamicDependentCar@fetch')->name('dynamicdependentcar.fetch');
 
 
-Route::get('/rate/phone', 'PhoneController@showPhones');
+Route::get('/ratephone','DynamicDependentPhone@showPhones');
+Route::post('ratephone/fetch', 'DynamicDependentPhone@fetch')->name('dynamicdependentphone.fetch');
+
 
 
 
