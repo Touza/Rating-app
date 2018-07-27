@@ -28,7 +28,7 @@
                 <div class="card-body">
                   <h5 class="card-title">CAR</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="{{'/rate/car'}}" class="btn btn-primary">Rate this product</a>
+                  <a href="{{'/ratecar'}}" class="btn btn-primary">Rate this product</a>
                 </div>
             </div>      
         </div>
@@ -38,7 +38,7 @@
                 <div class="card-body">
                   <h5 class="card-title">PHONE</h5>
                   <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="{{'/rate/phone'}}" class="btn btn-primary">Rate this product</a>
+                  <a href="{{'/ratephone'}}" class="btn btn-primary">Rate this product</a>
                 </div>
             </div>      
         </div>

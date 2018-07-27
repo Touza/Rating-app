@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap_rate.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/bootstrap_rate.css')}}">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
     
    
 	<title></title>
