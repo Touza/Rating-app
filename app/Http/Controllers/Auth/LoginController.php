@@ -1,7 +1,9 @@
 <?php
 
 namespace RATINGapp\Http\Controllers\Auth;
-
+use DB;
+use Auth;
+use Illuminate\Http\Request;
 use RATINGapp\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -25,7 +27,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/Home';
 
     /**
      * Create a new controller instance.
@@ -36,4 +38,30 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    public function login(){
+        return view('auth.login');
+    }
+
+
+    public function verify(Request $request)
+    {
+        $email = $request->input('email');
+        $password = $request->input('password');
+
+         $checkLogin = DB::table('admins')->where(['email'=>$email,'password'=>$password])->get();
+        if(count($checkLogin) >0)
+        {  
+            return view('Admin_area.admin');
+            
+        }else{
+            return view('auth.login');
+        }
+    }
+
+    public function logout(Request $request) {
+        Auth::logout();
+        return view('auth.login');
+    }
+
 }
