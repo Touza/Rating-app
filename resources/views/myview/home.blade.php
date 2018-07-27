@@ -1,4 +1,4 @@
-@extends('mylayouts.Myapp')
+@extends('layouts.app')
 
 @section('content')
      
@@ -11,7 +11,7 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Rating App</h1>
+              <h1>RATING app</h1>
               <span class="subheading">application for rating products</span>
             </div>
           </div>
