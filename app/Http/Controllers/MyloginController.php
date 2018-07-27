@@ -9,5 +9,6 @@ class MyloginController extends Controller
     //
     public function index(){
     	return view('myview.myLogin');
+
     }
 }
