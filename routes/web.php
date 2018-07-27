@@ -40,6 +40,18 @@ Route::get('/Home', 'HomeController@index')->name('home');
 // ]);
 // Route::get('/Home', 'MyhomeController@home')->name('home');
 
+<<<<<<< HEAD
 // Route::get('/LogAdmin','AdminController@login')->name('login_admin');
+=======
+Route::get('/ratecar','DynamicDependentCar@showCars');
+Route::post('ratecar/fetch', 'DynamicDependentCar@fetch')->name('dynamicdependentcar.fetch');
+
+
+Route::get('/ratephone','DynamicDependentPhone@showPhones');
+Route::post('ratephone/fetch', 'DynamicDependentPhone@fetch')->name('dynamicdependentphone.fetch');
+
+
+
+>>>>>>> c8a342107d6200d7d507fc4cd21f1d553d7c2093
 
 // Route::post('/LogAdmin','AdminController@verify');
