@@ -16,15 +16,13 @@
     <link href="{{ asset('css/clean-blog.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
-<<<<<<< HEAD
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/rate.css"/>
     <link rel="stylesheet" href="css/all.css"/>
 
-=======
     <link rel="stylesheet" href="{{asset('css/rate.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
->>>>>>> d1b8697fd12769116e4a4dd2fad0729cbfc4a76e
+
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
