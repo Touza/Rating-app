@@ -17,7 +17,7 @@ class CreateCarsTable extends Migration
              $table->increments('id');
             $table->string('make_car');
             $table->string('model_car');
-            $table->integer('rating_car')->nullable();
+            $table->float('rating_car')->nullable();
             $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
         });

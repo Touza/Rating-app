@@ -1,4 +1,23 @@
+<<<<<<< HEAD
+div.stars1 {
+	  width: 270px;
+	  display: inline-block;
+	  transform: rotateY(180deg);
+	}
+div.stars2 {
+	  width: 270px;
+	  display: inline-block;
+	  transform: rotateY(180deg);
+	}
+div.stars3 {
+	  width: 270px;
+	  display: inline-block;
+	  transform: rotateY(180deg);
+	}
+div.stars4 {
+=======
 div.stars {
+>>>>>>> d1b8697fd12769116e4a4dd2fad0729cbfc4a76e
 	  width: 270px;
 	  display: inline-block;
 	  transform: rotateY(180deg);
@@ -24,19 +43,35 @@ div.stars {
 	  color: #FE7;
 	  text-shadow: 0 0 20px #952;
 	}
+<<<<<<< HEAD
+
+=======
+>>>>>>> d1b8697fd12769116e4a4dd2fad0729cbfc4a76e
 	#star2-5:checked ~ label.fa:before {
 	  color: #FE7;
 	  text-shadow: 0 0 20px #952;
 	}
+<<<<<<< HEAD
+
+=======
+>>>>>>> d1b8697fd12769116e4a4dd2fad0729cbfc4a76e
 	#star3-5:checked ~ label.fa:before {
 	  color: #FE7;
 	  text-shadow: 0 0 20px #952;
 	}
+<<<<<<< HEAD
+
+=======
+>>>>>>> d1b8697fd12769116e4a4dd2fad0729cbfc4a76e
 	#star4-5:checked ~ label.fa:before {
 	  color: #FE7;
 	  text-shadow: 0 0 20px #952;
 	}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> d1b8697fd12769116e4a4dd2fad0729cbfc4a76e
 	#star1-1:checked ~ label.fa:before { color: #F62; }
 	#star2-1:checked ~ label.fa:before { color: #F62; }
 	#star3-1:checked ~ label.fa:before { color: #F62; }
