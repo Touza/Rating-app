@@ -28,21 +28,6 @@ Route::post('/Admin','Auth\LoginController@verify');
 Route::get('/Home', 'HomeController@index')->name('home');
 
 
-
-// Route::get('/',[
-// 		'as' => 'mylogin',
-// 		'uses' => 'MyloginController@index',
-// ]);
-
-// Route::get('/Home',[
-// 		'as' => 'myhome',
-// 		'uses' => 'MyhomeController@home',
-// ]);
-// Route::get('/Home', 'MyhomeController@home')->name('home');
-
-
-// Route::get('/LogAdmin','AdminController@login')->name('login_admin');
-
 Route::get('/ratecar','DynamicDependentCar@showCars');
 Route::post('ratecar/fetch', 'DynamicDependentCar@fetch')->name('dynamicdependentcar.fetch');
 
@@ -50,6 +35,3 @@ Route::post('ratecar/fetch', 'DynamicDependentCar@fetch')->name('dynamicdependen
 Route::get('/ratephone','DynamicDependentPhone@showPhones');
 Route::post('ratephone/fetch', 'DynamicDependentPhone@fetch')->name('dynamicdependentphone.fetch');
 
-
-
-// Route::post('/LogAdmin','AdminController@verify');

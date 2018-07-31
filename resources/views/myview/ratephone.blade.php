@@ -1,4 +1,4 @@
-@extends('mylayouts.Myapp_rate')
+@extends('layouts.app')
 <!--Header -->
 @include('inc.userheader')
 
