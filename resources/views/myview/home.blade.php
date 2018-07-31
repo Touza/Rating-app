@@ -48,7 +48,5 @@
       </div>
     </section>
     <!--footer-->
-@include('inc.homefooter')
-
 
 @endsection

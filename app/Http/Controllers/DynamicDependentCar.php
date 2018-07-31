@@ -32,8 +32,7 @@ class DynamicDependentCar extends Controller
       $output .= '<option value="'.$row->$dependent.'">'.$row->$dependent.'</option>';
      }
      echo $output;
-    }
-    
+    }    
 	
     
 function getRate(Request $request)

@@ -1,1 +1,1 @@
-# RAting-app
+# RATING-app
