@@ -17,7 +17,7 @@ class CreatePhonesTable extends Migration
             $table->increments('id');
             $table->string('make_phone');
             $table->string('model_phone');
-            $table->integer('rating_phone')->nullable();
+            $table->float('rating_phone')->nullable();
             $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
         });
